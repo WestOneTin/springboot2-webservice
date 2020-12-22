@@ -15,3 +15,4 @@ Chapter2
 2. JUnit을 이용한 HelloController의 hello메소드 테스트
 3. lombok plugin설치 및 Preferences - Build,Execution, Deployment - Compiler - Annotation Processors에서 Enable annotation processing 체크
 * gradle version이 4.10.2 이상인경우 dto test error MAC(./gradlew wrapper --gradle-version 4.10.2) Windows(gradlew wrapper --gradle-version 4.10.2)를 사용하여 다운그레이드
+(관련 이슈 : https://github.com/jojoldu/freelec-springboot2-webservice/issues/2)
