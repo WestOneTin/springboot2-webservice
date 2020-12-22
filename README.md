@@ -9,3 +9,9 @@ Chapter 1
 4. IntelliJ 와 Github 연결 해주기 command + Shift + A 를 눌러 Share Project on GitHub를 검색 후 깃허브 Login
 5. GitHub에 프로젝트 생성 후 .idea를 제외한 파일들을 동기화
 6. .ignore를 IntelliJ Plugin에서 다운 받은 후 .gitignore에 .gradle과 .idea를 작성하여 자동으로 github에 동기화 목록에 제외 (commit후 push)
+
+Chapter2
+1. TDD와 단위테스트차이 (단위테스트를 더 많이 사용)
+2. JUnit을 이용한 HelloController의 hello메소드 테스트
+3. lombok plugin설치 및 Preferences - Build,Execution, Deployment - Compiler - Annotation Processors에서 Enable annotation processing 체크
+* gradle version이 4.10.2 이상인경우 dto test error MAC(./gradlew wrapper --gradle-version 4.10.2) Windows(gradlew wrapper --gradle-version 4.10.2)를 사용하여 다운그레이드
